@@ -1,0 +1,3 @@
+let primulnumar = insereazaNumar("Insereaza un numar!");
+let numaruldoi = insereazaNumar("Insereaza alt numar");
+console.log( primulnumar + numaruldoi);
