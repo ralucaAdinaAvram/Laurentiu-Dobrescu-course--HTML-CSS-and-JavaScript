@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+.left{
+    width:30%;
+    margin-left: 5%;
+    margin: 50px 50px;
+    display: block;
+    float:left;
+}
+.Title{
+    padding-bottom:5px;
+    text-decoration: solid 5px;
+}
+button{
+    width:250px;
+    padding: 8px 8px;
+    margin: 10px 10px;
+}
+.container{
+    margin: 70px 50px;
+   
+    width: 600px;
+    display:block;
+    float: right;
+
+}
+
+input[type=text], select, textarea {
+  width: 600px; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+</style>
+<body>
+    <div class="left">
+       <div class="Title"><p>Contacteaza-ne</p></div> 
+       <div class="Text">
+           <p>
+               Ai intrebari sau vrei sa raportezi o problema legata de platforma?
+               Iti stam la dispozitie pentru ajutor.
+           </p>
+           
+          <button type="button"><a href="https://www.facebook.com/laurentiudobrescuprogramare"><i class="fab fa-facebook-f"></i></a></button>
+          <button type="button"><a href="https://www.youtube.com/channel/UCf_H4svvyG4hoJttBH7U4nA/featured"><i class="fab fa-youtube"></i></a></button>
+          <button type="button"><a href="https://www.instagram.com/laurentiudobrescu_/"><i class="fab fa-instagram"></i></a></button>
+         
+          
+        
+       </div>
+    </div>
+
+       <div class="container">
+           <form>
+            <label for="subject" class="Title">Mesajul tau</label><br>
+            <textarea id="subject" name="subject" placeholder="Scrie mesajul tau aici.." style="height:200px"></textarea>
+        <br>
+            <input type="submit" value="Submit">
+           </form>
+       </div>
+        
+    
+    
+</body>
+</html>
